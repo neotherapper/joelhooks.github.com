@@ -106,9 +106,9 @@
 
 <p>The first step was to strip out all of the &#8220;junk&#8221; posts that have accumulated. These were generally time based announcements that weren&#8217;t adding anything to <strong>any</strong> conversation. After that, I stripped the theme and used the excellent <a href="http://wordpress.org/extend/themes/boilerplate">Boilerplate</a> theme. If I was to build a Wordpress theme &#8220;from scratch,&#8221; this is the theme I&#8217;d go for. I wish I&#8217;d found it before. It has an excellent separation of concerns and seems like it would be a pleasure to build upon. Sorry Wordpress, it&#8217;s too late for that.</p>
 
-<p>With the theme stripped an all non-essential plugins disabled, I tweaked the theme so that individual pages had much of the extra fluff removed from them. All dates are gone, next/previous navigation is gone, and I added in a box at the bottom just to let people know that the page should be considered an &#8220;archive.&#8221;</p>
+<p>With the theme stripped an all non-essential plugins disabled, I tweaked the theme so that individual pages had much of the extra fluff removed from them. All dates are gone, next/previous navigation is gone, and I added in a box at the bottom just to let people know that the page should be considered an &#8220;archive.&#8221; It&#8217;s important to get the pages right at this step. It would be a severe pain to manipulate the resulting static pages.</p>
 
-<p>All that was left was extracting all of the <a href="http://joelhooks.com/2009/12/24/continuous-scrolling-thumbnail-component-for-flex/">individual posts into static pages</a>. <a href="http://wordpress.org/extend/plugins/static-html-output-plugin/">The WP Static HTML Output</a> plugin is excellent. It spit out a zip with the proper folder structure to ensure that my links would not be broken. It gave me all of the resources for each page, including the SWFs and other media that they linked to. This was perfect.</p>
+<p>All that was left was extracting all of the <a href="http://joelhooks.com/2009/12/24/continuous-scrolling-thumbnail-component-for-flex/">individual posts into static pages</a>. <a href="http://wordpress.org/extend/plugins/static-html-output-plugin/">The WP Static HTML Output</a> plugin is excellent. It spit out a zip with the proper folder structure to ensure that my links would not be broken. The only flaw was that the Archive Utility on OS X wouldn&#8217;t unzip the output. I had to use the command line unzip utility. It gave me all of the resources for each page, including the SWFs and other media that they linked to. This was perfect.</p>
 
 <p>There are other options for this too. <a href="https://github.com/thomasf/exitwp/">exitWP</a> looks like a solid way to extract posts and create markdown that could potentially be used with <a href="https://github.com/mojombo/jekyll">Jekyll</a> (and subsequently <a href="http://octopress.org/">Octopress</a>), but I liked the flat file structure of the straight brute force HTML output.</p>
 
@@ -116,9 +116,9 @@
 
 <p>Octopress is a wicked open-source blogging platform that leverages a hosted git repository to deliver my words. It hooks up to Github and Heroku, depending on your preference for platform. I&#8217;ve got mine working through Github.</p>
 
-<p>What I like about Octopress is that <em>everything</em> is version controlled. I can start a draft, work, commit, come back later to work some more, and finally deploy it when it is ready. It allows my blog to <em>feel</em> like a proper software project, and I like that.</p>
+<p>What I like about Octopress is that <strong>everything is version controlled</strong>. I can start a draft, work, commit, come back later to work some more, and finally deploy it when it is ready. It allows my blog to <em>feel</em> like a proper software project, and I like that.</p>
 
-<p>There is a handful of themes, and I haven&#8217;t got into customization yet, but it looks a lot nicer to modify than Wordpress PHP. It feels like the type of system that <em>I</em> like to work on and tinker with.</p>
+<p>There is a handful of themes, and I haven&#8217;t got into customization yet, but it looks a lot nicer to modify than Wordpress PHP. It feels like the type of system that <strong>I</strong> like to work on and tinker with.</p>
 
 <p>Octopress is <strong><em>dead simple</em></strong> to get up and running with. The documentation is first rate, and the steps are clear and concise. You can literally have something public facing in 10 minutes via Github or Heroku.</p>
 
@@ -166,11 +166,11 @@ site.posts.each do |post|
 
 <p>It isn&#8217;t pretty, but it got all of my post page links wedged into the sitemap. Hopefully this appeases the robots.</p>
 
-<p>Another cool tool that works well with Octopress is <a href="http://pow.cx/">Pow</a>. Octopress is a rack app, and once to point Pow at you Octopress folder, it serves the page up locally at <code>http://foldername.dev</code>. Then it&#8217;s just a matter of running <code>rake watch</code> and going to town.</p>
+<p>Another cool tool that works well with Octopress is <a href="http://pow.cx/">Pow</a>. Octopress is a rack app, and once to point Pow at your Octopress folder, it serves the page up locally at <code>http://foldername.dev</code>. Then it&#8217;s just a matter of running <code>rake watch</code> and going to town.</p>
 
 <h3>Conclusion</h3>
 
-<p>I&#8217;m stoked about making progress on my blogspace. It has been on the todo list for some time. It falls well into the breakable toy category of things, and that is something I can use right now as I learn new tools. I&#8217;m looking forward to improving this space with quality content about modern standards-based web development with open source tools.</p>
+<p>I&#8217;m stoked about making progress on my blogspace. It has been on the todo list for some time. It falls well into the <a href="http://redsquirrel.com/dave/work/a2j/patterns/BreakableToys.html">breakable toy</a> category of things, and that is something I can use right now as I learn new tools. I&#8217;m looking forward to improving this space with quality content about modern standards-based web development with open source tools.</p>
 </div>
 
 

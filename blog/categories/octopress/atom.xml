@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | Joel Hooks]]></title>
   <link href="http://joelhooks.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://joelhooks.com/"/>
-  <updated>2012-09-04T08:04:36-05:00</updated>
+  <updated>2012-09-04T09:03:51-05:00</updated>
   <id>http://joelhooks.com/</id>
   <author>
     <name><![CDATA[Joel Hooks]]></name>
@@ -97,7 +97,7 @@ site.posts.each do |post|
 
 <p>Another cool tool that works well with Octopress is <a href="http://pow.cx/">Pow</a>. Octopress is a rack app, and once to point Pow at your Octopress folder, it serves the page up locally at <code>http://foldername.dev</code>. Then it's just a matter of running <code>rake watch</code> and going to town.</p>
 
-<h3>Conclusion</h3>
+<h2>Conclusion</h2>
 
 <p>I'm stoked about making progress on my blogspace. It has been on the todo list for some time. It falls well into the <a href="http://redsquirrel.com/dave/work/a2j/patterns/BreakableToys.html">breakable toy</a> category of things, and that is something I can use right now as I learn new tools. I'm looking forward to improving this space with quality content about modern standards-based web development with open source tools.</p>
 ]]></content>

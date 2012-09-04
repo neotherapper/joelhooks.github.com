@@ -7,20 +7,41 @@
 	<meta name="author" content="Joel Hooks">
 
 	
-	<meta name="description" content="2012 Professional and Rigourous JavaScript Development Aug 31 Practical Object Oriented Design is Excellent Aug 28 books, object-oriented, ood, oop &hellip;">
+	<meta name="description" content="2012 Practical Object Oriented Design is Excellent Aug 28 books, object-oriented, ood, oop On Transitioning to JavaScript From AS3/Flex Aug 27 Flex &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<link href="/atom.xml" rel="alternate" title="Joel Hooks" type="application/atom+xml">
 	<link rel="canonical" href="">
 	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Chivo' rel='stylesheet' type='text/css'>
+
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="/stylesheets/slabtext.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="/javascripts/libs/jquery.slabtext.min.js"></script>
 	<script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <meta property="og:title" content="Joel Hooks" />
 <meta property="og:description" content="the one where Joel discusses his trials and tribulations as a developer of fine software." />
 <meta property="og:image" content="/images/head.png" />
+
+<script>
+    function slabTextHeadlines() {
+	    $("h1").show().slabText({
+	            "viewportBreakpoint":380
+	    });
+    };
+    
+    $(function() {
+    	//$("h1").hide();
+    	//setTimeout(slabTextHeadlines, 50);
+    });
+</script> 
+
+
 
 </head>
 
@@ -56,20 +77,6 @@
 	
 	
 	<section class="archives"><h1 class="year">2012</h1>
-
-<article>
-	<h1 class="title"><a href="/blog/2012/08/31/professional-and-rigourous-javascript-development/">Professional and Rigourous JavaScript Development</a></h1>
-	<div class="meta">
-		<span class="date">Aug 31</span>
-		<span class="tags">
-
-</span>
-	    
-	</div>
-</article>
-
-	
-
 
 <article>
 	<h1 class="title"><a href="/blog/2012/08/28/practical-object-oriented-design-in-ruby-is-a-really-good-book/">Practical Object Oriented Design is Excellent</a></h1>
@@ -140,6 +147,8 @@
   Copyright &copy; 2012 - Joel Hooks -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
+
+
 </footer>
 	<script src="/javascripts/slash.js"></script>
 <script src="/javascripts/jquery.fancybox.pack.js"></script>

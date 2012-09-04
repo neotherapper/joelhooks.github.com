@@ -17,29 +17,23 @@ August 2012 Code Review: How to Make Friends &hellip;">
 	<link rel="canonical" href="">
 	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Chivo' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet' type='text/css'>
 
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<link href="/stylesheets/slabtext.css" media="screen, projection" rel="stylesheet" type="text/css">
+
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script src="/javascripts/libs/jquery.slabtext.min.js"></script>
+
+	<script src="/javascripts/libs/jquery.fittext.js"></script>
+
 	<script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <meta property="og:title" content="Joel Hooks" />
 <meta property="og:description" content="the one where Joel discusses his trials and tribulations as a developer of fine software." />
 <meta property="og:image" content="/images/head.png" />
 
 <script>
-    function slabTextHeadlines() {
-	    $("h1").show().slabText({
-	            "viewportBreakpoint":380
-	    });
-    };
-    
     $(function() {
-    	//$("h1").hide();
-    	//setTimeout(slabTextHeadlines, 50);
+    	$("h1").fitText(1.46, { minFontSize: '36px', maxFontSize: '70px' });
     });
 </script> 
 
